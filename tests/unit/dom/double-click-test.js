@@ -279,7 +279,7 @@ module('DOM Helper: doubleClick', function (hooks) {
   });
 
   module('focusable and non-focusable elements interaction', function () {
-    test('cdouble-licking on non-focusable element triggers blur on active element', async function (assert) {
+    test('double-clicking on non-focusable element triggers blur on active element', async function (assert) {
       element = document.createElement('div');
 
       insertElement(element);
